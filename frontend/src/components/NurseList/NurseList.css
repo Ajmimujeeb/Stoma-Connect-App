@@ -1,0 +1,86 @@
+/* Main Container */
+.nurse-list {
+  padding: 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nurse-list h1 {
+  font-size: 4em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Nurse Card Container */
+.nurse-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Set 3 columns per row */
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+}
+
+/* Nurse Card */
+.nurse-card {
+  background-color: #eaf3f6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.nurse-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Profile Image */
+.nurse-card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Nurse Information */
+.nurse-card h3 {
+  font-size: 1.4em;
+  margin: 15px 10px 5px;
+  color: #00407b;
+  font-weight: bold;
+}
+
+.nurse-card p {
+  font-size: 1em;
+  margin: 5px 10px;
+  color: #555;
+}
+
+.nurse-card p strong {
+  color: #333;
+}
+
+/* Appointment Button */
+.nurse-card button {
+  display: block;
+  background-color: #006d7b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 15px 10px 20px;
+  width: calc(100% - 20px);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nurse-card button:hover {
+  background-color: #00575f;
+}
+
+  

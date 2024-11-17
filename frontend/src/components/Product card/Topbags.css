@@ -1,0 +1,65 @@
+/* Background Section */
+.background-section {
+  background: linear-gradient(to right, #ADBBDA, #8697C4); /* Light pink gradient background */
+  padding: 50px 3; /* Adds padding at the top and bottom */
+}
+
+/* Card Wrapper */
+.card-wrapper {
+  background-color: #ffffff; /* White background for each card */
+  padding: 15px;
+  border-radius: 12px; /* Rounds corners of the card container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.card-wrapper:hover {
+  transform: scale(1.05); /* Scale up effect on hover */
+}
+
+.product-card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Badge Styling */
+.offer-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff5252;
+  color: white;
+  padding: 5px 8px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* Title and Rating */
+.product-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.product-rating {
+  font-size: 0.9rem;
+  color: #ff9800;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+/* Price and Shades */
+.product-shades {
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+}

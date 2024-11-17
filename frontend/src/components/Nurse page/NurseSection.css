@@ -1,0 +1,78 @@
+/* NurseSection.css */
+.nurse-section {
+    background-color: #f0f4fa; /* Light background to match your theme */
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nurse-content {
+    display: flex;
+    align-items: center;
+    max-width: 100x;
+    gap: 20px;
+    color: #333;
+  }
+  
+  /* .nurse-media {
+    flex: 1;
+  } */
+  
+  .nurse-image,
+  /* .nurse-video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  } */
+  
+  /* .nurse-text {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .nurse-text h2 {
+    color: #002855; /* Dark blue for titles */
+    /* font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .nurse-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333; /* Dark text color for readability */
+  /* }  */ */
+  .nurse-media {
+    flex: 2;                     /* Make video area larger */
+    height: 100%;                /* Ensure video takes full height */
+}
+
+.nurse-video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.nurse-video:hover {
+    transform: scale(1.05);
+}
+.nurse-text {
+  flex: 1;
+  padding: 20px;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.nurse-text h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #003366; /* Example dark blue color */
+}
+
+.nurse-text p {
+  line-height: 1.6;
+}
+
+  

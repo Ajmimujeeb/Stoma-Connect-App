@@ -1,0 +1,38 @@
+/* Ensure full width and height, with no extra padding */
+.carousel, .carousel-item {
+    width: 100vw; /* Full viewport width */
+    height: 400px; 
+    overflow: hidden;
+    margin: 0;
+    padding-right: 0;
+  
+  }
+  
+  /* Center the content within the carousel */
+  .carousel-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    background-color: #003366; /* Dark blue */
+    color: #FFFFFF; /* White text */
+    padding: 0; /* Ensure no padding */
+  }
+  /* src/components/HomePageCarousel.css */
+
+.carousel-image {
+  height: 500px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.carousel-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text readability */
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  color: black;
+}
